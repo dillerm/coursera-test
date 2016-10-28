@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+}
+.navbar-default .navbar-collapse {
+    background-color: aliceblue;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+}
+@media (min-width: 576px) {
+    .navbar-toggle, #nav-list {
+        display: none;
+    }
+}
+#nav-list a {
+    text-align: center;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-color: black;
+}
+#content {
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
